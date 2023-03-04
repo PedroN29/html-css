@@ -19,6 +19,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -54,42 +55,24 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
 }
 
 section.normal {
     background-color: white;
     color: black;
-    font-family: var(--fonte3);
 }
 
 section.imagem {
     background-color: rgb(51, 51, 51);
-    font-family: var(--fonte3);
+    display: inline-block;
+    padding: 5px;
 }
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
     width: 400px;
-}
-
-main #flor {
-    background-image: url(../imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 40px 0px;
-    max-height: 50em;
-}
-
-main #carta {
-    background-image: url(../imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 40px 0px;
-    max-height: 50em;
 }
 
 footer {
